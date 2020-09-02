@@ -40,7 +40,7 @@ Attendees will be required to install software on the workstations that they are
 2. The latest version of the Azure PowerShell cmdlets do **NOT** work with this script. You will need to use an earlier version (noted below)
 
     ```PowerShell
-    Install-Module -Name Az -RequiredVersion 4.2.0 -Force -AllowClubber
+    Install-Module -Name Az -RequiredVersion 4.2.0 -Force -AllowClobber -SkipPublisherCheck
     ```
 
     > Note: If you need to uninstall first: [Uninstall the Azure PowerShell Module](https://docs.microsoft.com/en-us/powershell/azure/uninstall-az-ps?view=azps-4.6.0)
